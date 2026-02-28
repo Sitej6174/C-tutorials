@@ -1,9 +1,59 @@
 # 📘 C & C++ Tutorials
 
-A hands-on collection of **C** and **C++** programs covering fundamental concepts, practice exercises, and small demos. Great for beginners learning the basics of systems programming.
+A hands-on collection of **C** and **C++** programs covering fundamental programming concepts, pattern printing, algorithms, and mini simulations. Ideal for students and beginners learning the C/C++ programming languages from scratch.
 
 ---
 
+## 📂 File Descriptions
+
+### 🔵 Core C Files
+
+| File | Description | Key Concepts |
+|------|-------------|--------------|
+| `C.c` | General-purpose C practice file covering basic language constructs | Variables, data types, input/output, operators |
+| `CS1.c` | Introductory CS1-level exercises — the kind typically assigned in first-semester programming courses | Conditionals, basic loops, formatted output |
+| `Cnotes.c` | Annotated code that doubles as study notes — code with comments explaining each construct as it is introduced | Syntax reference, inline documentation |
+| `main.c` | Entry-point template and driver code; useful as a starting skeleton for new C programs | `main()` structure, return values, basic I/O |
+| `instructions.c` | Step-by-step instructional code walking through a concept or problem in a guided, tutorial style | Structured problem-solving, beginner walkthroughs |
+| `test.c` | Scratch/sandbox file for quick experiments and trying out ideas | Miscellaneous testing, prototyping |
+
+### 📅 Logic & Real-World Programs
+
+| File | Description | Key Concepts |
+|------|-------------|--------------|
+| `Day.c` | Determines the day of the week or performs day-based calendar calculations | Modular arithmetic, switch-case, date logic |
+| `months.c` | Displays month names, days in each month, or performs month-based calendar logic | Arrays, switch-case, conditionals |
+| `Voting.c` | Simulates a basic voting system — accepts votes for candidates and announces a winner | Arrays, loops, comparison logic, input validation |
+| `bignumber.c` | Performs arithmetic (addition, multiplication, etc.) on very large integers that exceed standard data type limits | Arrays as digit stores, carry logic, string manipulation |
+
+### 🔢 Algorithms & Math
+
+| File | Description | Key Concepts |
+|------|-------------|--------------|
+| `primenumbw2.c` | Checks whether numbers are prime and prints prime numbers within a range | Loops, modulus operator, optimized trial division |
+
+### 🎨 Pattern Printing
+
+| File | Description | Key Concepts |
+|------|-------------|--------------|
+| `star.c` | Prints various star (`*`) patterns such as triangles, pyramids, diamonds, and more | Nested loops, loop control, spacing logic |
+| `swastik.c` | Draws a swastik (an ancient symmetric symbol) using characters on the console | Coordinate logic, nested loops, conditional printing |
+
+### 🟡 C++ Files
+
+| File | Description | Key Concepts |
+|------|-------------|--------------|
+| `Fp.cpp` | Demonstrates the use of function pointers and/or file pointers in C++ | `fstream`, function pointers, C++ I/O |
+| `c++/` | Folder containing additional C++ programs and examples | OOP basics, classes, C++ syntax |
+
+### 📁 Folders
+
+| Folder | Description |
+|--------|-------------|
+| `Demos/` | Demo programs used for walkthroughs, classroom examples, or quick feature showcases |
+| `c++/` | C++ specific programs and exercises beyond the root-level `.cpp` files |
+
+---
 ## 📂 Repository Structure
 
 ```
@@ -30,13 +80,22 @@ C-tutorials/
 
 ## 🛠️ Topics Covered
 
-- **Basics** — Variables, data types, operators, I/O
-- **Control Flow** — if/else, switch, loops
-- **Functions** — Declarations, definitions, recursion
-- **Patterns** — Star patterns, symbol patterns
-- **Algorithms** — Prime numbers, big number arithmetic
-- **Simulations** — Voting system, calendar logic
-- **C++ Fundamentals** — File pointers, OOP basics
+### C Programming
+- **Input / Output** — `printf`, `scanf`, formatted output
+- **Data Types & Variables** — `int`, `float`, `char`, `long`, type casting
+- **Operators** — arithmetic, relational, logical, bitwise, modulus
+- **Control Flow** — `if`, `else if`, `else`, `switch-case`
+- **Loops** — `for`, `while`, `do-while`; loop nesting and break/continue
+- **Functions** — declaration, definition, return types, recursion
+- **Arrays** — 1D/2D arrays, array traversal, arrays as digit buffers
+- **Pattern Printing** — nested loop logic, coordinate-based printing
+- **Math & Algorithms** — prime checking, big number arithmetic
+- **Simulations** — voting systems, calendar/day logic
+
+### C++ Programming
+- **File I/O** — `fstream`, reading and writing files
+- **Function Pointers** — declaring and invoking functions via pointers
+- **OOP Basics** — classes, objects, member functions (in `c++/` folder)
 
 ---
 
@@ -47,14 +106,11 @@ C-tutorials/
 Make sure you have a C/C++ compiler installed:
 
 ```bash
-# Check GCC
-gcc --version
-
-# Check G++
-g++ --version
+gcc --version   # for C files
+g++ --version   # for C++ files
 ```
 
-If not installed, on Ubuntu/Debian:
+If not installed (Ubuntu/Debian):
 
 ```bash
 sudo apt update && sudo apt install build-essential
@@ -64,42 +120,29 @@ sudo apt update && sudo apt install build-essential
 
 **For `.c` files:**
 ```bash
-gcc filename.c -o output
-./output
+gcc filename.c -o output && ./output
 ```
 
 **For `.cpp` files:**
 ```bash
-g++ filename.cpp -o output
-./output
+g++ filename.cpp -o output && ./output
 ```
 
-**Example:**
+**Examples:**
 ```bash
-gcc star.c -o star
-./star
+gcc star.c -o star && ./star
+gcc primenumbw2.c -o primes && ./primes
+gcc Voting.c -o voting && ./voting
+g++ Fp.cpp -o fp && ./fp
 ```
-
----
-
-## 💡 Example Programs
-
-| File | Description |
-|------|-------------|
-| `star.c` | Prints star patterns using nested loops |
-| `primenumbw2.c` | Checks and prints prime numbers |
-| `Voting.c` | Simple voting system simulation |
-| `months.c` | Displays month names or related logic |
-| `bignumber.c` | Handles arithmetic on large numbers |
-| `swastik.c` | Draws a swastik symbol using characters |
 
 ---
 
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to:
-- Add new tutorial programs
-- Improve existing code with comments
+- Add new tutorial programs with comments
+- Improve existing code with better explanations
 - Fix bugs or compilation warnings
 
 Open a pull request or raise an issue to get started.
