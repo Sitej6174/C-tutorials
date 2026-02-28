@@ -153,8 +153,29 @@ Open a pull request or raise an issue to get started.
 ## 👤 Author
 
 **Sitej** — [@Sitej6174](https://github.com/Sitej6174)
-
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://gitlab.com/sitejmaharana611">
+        <img src="https://gitlab.com/uploads/-/system/user/avatar/34701574/avatar.png?width=800" width="100px;" alt="Sitej Maharana"/>
+        <br />
+        <sub><b>Sitej Maharana</b></sub>
+      </a>
+      <br />
+      <sub> 🤝 Collaborato </sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/sitej6174">
+        <img src="https://github.com/sitej6174.png" width="100px;" alt="Sitej6174"/>
+        <br />
+        <sub><b>Sitej Maharana</b></sub>
+      </a>
+      <br />
+      <sub>💻 Main Developer </sub>
+    </td>
 ---
+
+
 
 ## 📄 License
 
