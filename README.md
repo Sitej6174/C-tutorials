@@ -1,4 +1,5 @@
-# 📘 C & C++ Tutorials
+### <p align="center">📘 C & C++ Tutorials Projects </p>
+
 
 A hands-on collection of **C** and **C++** programs covering fundamental programming concepts, pattern printing, algorithms, and mini simulations. Ideal for students and beginners learning the C/C++ programming languages from scratch.
 
