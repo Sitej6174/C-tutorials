@@ -21,7 +21,7 @@ Each file demonstrates simple concepts with clear logic and minimal complexity.
 
 To run the programs, you need:
 
-- A C compiler (GCC recommended)
+- A C compiler (GCC & clang recommended)
 - Any code editor (VS Code, Code::Blocks, Dev C++, etc.)
 
 ---
