@@ -136,20 +136,6 @@ gcc primenumbw2.c -o primes && ./primes
 gcc Voting.c -o voting && ./voting
 g++ Fp.cpp -o fp && ./fp
 ```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Add new tutorial programs with comments
-- Improve existing code with better explanations
-- Fix bugs or compilation warnings
-
-Open a pull request or raise an issue to get started.
-
----
-
 ## 👤 Author
 
 **Sitej** — [@Sitej6174](https://github.com/Sitej6174)
@@ -173,9 +159,22 @@ Open a pull request or raise an issue to get started.
       <br />
       <sub>💻 Main Developer </sub>
     </td>
+
+
+
+
 ---
 
+## 🤝 Contributing
 
+Contributions are welcome! Feel free to:
+- Add new tutorial programs with comments
+- Improve existing code with better explanations
+- Fix bugs or compilation warnings
+
+Open a pull request or raise an issue to get started.
+
+---
 
 ## 📄 License
 
